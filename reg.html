@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>報名表單</title>
+    <link rel="stylesheet" type="text/css" href="reg.css">
+</head>
+
+<body>
+    <div id="all">
+        <h1>報名表單</h1>
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLScM4B6u7nOkNQqUOlSBn7fKXm5cjuno14nyCKRlA4XyjSY9Qg/formResponse" method="POST" autocomplete="off">
+            <!--<label for="name">姓名</label>-->
+            <input type="text" name="entry.1339495092" id="name" required="required" placeholder="姓名">
+            <br>
+            <!--<label for="college">學院</label>-->
+            <select name="entry.1944781450" id="college" required="required">
+                <option value="">請選擇</option>
+                <option value="文學院">文學院</option>
+                <option value="理學院">理學院</option>
+                <option value="社會科學學院">社會科學學院</option>
+                <option value="法學院">法學院</option>
+                <option value="商學院">商學院</option>
+                <option value="外國語文學院">外國語文學院</option>
+                <option value="傳播學院">傳播學院</option>
+                <option value="國際事務學院">國際事務學院</option>
+                <option value="教育學院">教育學院</option>
+            </select>
+            <br>
+            <!--<label for="phone">手機</label>-->
+            <input type="tel" name="entry.795504394" id="phone" required="required" placeholder="手機" maxlength="10" pattern="[0]{1}[9]{1}[0-9]{8}">
+            <br>
+            <!--<label for="email">Email</label>-->
+            <input type="email" name="entry.560282373" id="email" required="required" placeholder="信箱">
+            <br>
+            <!--<label for="birthday">生日</label>-->
+            <input type="date" name="entry.324774019" id="birthday" required="required">
+            <br>
+            <input name="entry.189820201" value="103703004" hidden>
+            <br>
+            <input type="submit" value="註冊" id="send">
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 新細明體, serif;
+}
+
+#main{
+    display: flex;
+}
+
+#paragraph{
+    margin: 0 25px;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+aside{
+    margin: 0 25px;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+aside>section {
+  float: left;
+  width: 200px;
+  height: 350px;
+  margin: 1em;
+}
+
+article>p, article>blockquote{
+    font-size: 16px;
+    padding:10px 0;
+}
+
+aside section a img:hover{
+    opacity: 0.5;
+}
+
+aside section>img{
+    float: left;
+}
+
+aside section time{
+    clear: left;
+    display: block;
+}
+
+aside section time strong{
+    font-size: 2em;
+    color: cornflowerblue;
+}
+
+a{
+    text-decoration: none;
+    color: limegreen;
+}
+
+a:visited{
+    color: rebeccapurple;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: saddlebrown;
+}
+
+#nccuArts{
+    float: left;
+    margin: 20px 0;
+}
+
+footer address{
+    display: inline-block;
+}
+
+footer ul{
+    display: inline-block;
+    width: 600px;
+}
+
+footer ul li{
+    float: left;
+    list-style: none;
+}
+
+.nextline{
+    clear: left;
+}
+
+.fa-facebook-square{
+    margin-left: 5px;
+}
+
+#infomation{
+    display: flex;
+}
+
+#infomation section{
+    margin: 0 25px;
+    -webkit-flex: 1;
+    flex: 1;
+}
